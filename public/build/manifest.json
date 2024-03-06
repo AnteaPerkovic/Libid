@@ -1,0 +1,37 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CLtK5-LZ.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-K-5iv3H6.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-Ch7h8qU7.css"
+    ],
+    "assets": [
+      "assets/logo-B8J6fyQ-.png",
+      "assets/pocetna-DE9hZP72.png",
+      "assets/background-Goe-1EFP.jpg",
+      "assets/mountains-Bn413tE6.png"
+    ]
+  },
+  "resources/js/images/background.jpg": {
+    "file": "assets/background-Goe-1EFP.jpg",
+    "src": "resources/js/images/background.jpg"
+  },
+  "resources/js/images/logo.png": {
+    "file": "assets/logo-B8J6fyQ-.png",
+    "src": "resources/js/images/logo.png"
+  },
+  "resources/js/images/mountains.png": {
+    "file": "assets/mountains-Bn413tE6.png",
+    "src": "resources/js/images/mountains.png"
+  },
+  "resources/js/images/pocetna.png": {
+    "file": "assets/pocetna-DE9hZP72.png",
+    "src": "resources/js/images/pocetna.png"
+  }
+}
