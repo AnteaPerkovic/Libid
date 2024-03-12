@@ -8,7 +8,7 @@ import Bottom from "../components/Bottom.vue";
     <div class="contact">
         <h1 class="text-center mt-5">Kontaktiraj nas</h1>
         <p class="text-center mt-3">
-            Imate pitanja? Kontaktirajte nas putem e-maila ili društvenih mreža.
+            Imate pitanja? Kontaktirajte nas putem e-maila ili putem tel. broja.
         </p>
         <div
             class="login-form d-flex flex-column justify-content-center align-items-center mt-5"
@@ -27,42 +27,44 @@ import Bottom from "../components/Bottom.vue";
                     />
                     <h3>Kontakt</h3>
                 </div>
-                <div class="mb-3">
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        placeholder="Ime"
-                        aria-describedby="emailHelp"
-                        required
-                    />
-                </div>
-                <div class="mb-3">
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        placeholder="Email"
-                        autocomplete="off"
-                        required
-                    />
-                </div>
-                <div class="form-floating">
-                    <textarea
-                        class="form-control"
-                        placeholder="Leave a comment here"
-                        id="floatingTextarea"
-                        required
-                    ></textarea>
-                    <label for="floatingTextarea">Comments</label>
-                </div>
 
-                <button
-                    type="submit"
-                    class="btn btn-primary w-100 shadow-none regBtn mt-3"
-                >
-                    Pošalji
-                </button>
+              <br>
+
+               
+                <li>
+                    <ul>
+                        <h4>Adresa: </h4>
+                        
+                    </ul>
+                    <ul>
+                        Libid HNŽ/K
+88000 Mostar 
+Bosna i Hercegovina
+                    </ul>
+                </li> 
+                
+
+                <li>
+                    <ul>
+                        <h4>E-mail:</h4>
+                        
+                    </ul>
+                    <ul>
+                        ibid.info@gmail.com
+                    </ul>
+                </li> 
+
+                <li>
+                    <ul>
+                        <h4> Broj telefona:</h4>
+                       
+                    </ul>
+                    <ul>
+                        +387 63 000 000
+                    </ul>
+                </li> 
+              
+               
             </form>
         </div>
     </div>

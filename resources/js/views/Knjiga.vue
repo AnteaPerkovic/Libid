@@ -19,6 +19,11 @@ import Bottom from "../components/Bottom.vue";
         Knjiga dodana u kosaricu
     </div>
 
+        
+
+
+
+
     <div class="ms-5 mt-5 d-flex gap-5 flex-wrap" style="margin-bottom: 100px !important;">
         <div v-for="knjiga in knjige" class="card shadow-lg" style="width: 15rem; ">
             <img

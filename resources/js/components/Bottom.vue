@@ -2,9 +2,14 @@
     <div>
         <div class="position-fixed shadow-lg  bottom-0 w-100" style="background-color: #03151E;" >
             <div class="d-flex justify-content-center text-light align-items-center gap-5 footer-items shadow-lg" >
-                <p class="text-center mt-3  ">
-                    Copyright © Klara & Antea | PZI
-                </p>
+
+                <p class="text-center mt-3">
+    <a href="https://github.com/AnteaPerkovic" target="_blank" style="text-decoration: none; color: white;">GitHub</a> | 
+    <a href="https://eucenje.sum.ba/moodle/" target="_blank" style="text-decoration: none; color: white;">PZI</a>
+</p>
+
+
+
                 <div class="d-flex gap-3 footer-icons">
                     <Facebook class="icon"/>
                     <Instagram  class="icon"/>
@@ -20,11 +25,13 @@ import Facebook from "../../icons/Facebook.vue";
 import TikTok from "../../icons/TikTok.vue";
 import Instagram from "../../icons/Instagram.vue";
 
+
 export default {
     components: {
         Facebook,
         TikTok,
         Instagram,
+        
     },
 };
 </script>

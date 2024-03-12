@@ -108,7 +108,8 @@ import axios from "axios";
                     >
                 </p>
                 <div class="mt-3 alert alert-info text-center" v-if="uspjesnaPrijava">
-                    Registracija je uspješna
+                    Registrirani ste.
+                    
                 </div>
             </form>
         </div>
@@ -143,14 +144,17 @@ export default {
                 .then((response) => {
                     this.uspjesnaPrijava = true;
                     this.errors = {};
+                    // Preusmeravanje na drugu rutu nakon uspešne registracije
+                    this.$router.push('/');
                 })
                 .catch((error) => {
                     if (error.response && error.response.status === 422) {
                         this.errors = error.response.data.errors;
-                    } else {
+} else {
                         console.log(error);
                     }
                 });
+
         },
     },
 };

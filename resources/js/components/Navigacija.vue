@@ -65,6 +65,13 @@
                     </ul>
 
                     <ul class="navbar-nav">
+                        <li class="nav-item dropdown" v-if="!isLogged">
+                            
+                            <a class="nav-link text-dark" style="text-decoration: none; color: black;" role="button">
+    <router-link to="/" style="color: inherit; text-decoration: none;">Prijavite se</router-link>
+</a>
+
+</li>
                         <li class="nav-item dropdown" v-if="isLogged">
                             <a
                                 class="nav-link dropdown-toggle text-dark"
@@ -122,6 +129,7 @@ export default {
     created() {
         this.jelPrijavljen();
     },
+    
     methods: {
         jelPrijavljen() {
             axios
@@ -143,6 +151,28 @@ export default {
                     this.spinner = false;
                 });;
         },
+
+        jelRegistriran() {
+        axios
+            .get("/registriran")
+            .then((response) => {
+                this.user = response.data.user;
+
+                console.log("REGISTRIRAN JE KORISNIK", this.user);
+
+                if (this.user === null) {
+                    this.isRegistered = false;
+                } else {
+                    this.isRegistered = true;
+                }
+            })
+            .catch((error) => {
+                console.log(error);
+            }).finally(() => {
+                this.spinner = false;
+            });
+    },
+
         odjava() {
             axios
                 .post("/odjava")

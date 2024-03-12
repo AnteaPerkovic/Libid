@@ -34,9 +34,10 @@ import Bottom from "../components/Bottom.vue";
       raznolikost žanrova i tema, a naša stručna ekipa stoji vam na raspolaganju
       kako bi vam pomogla pronaći savršenu knjigu za vaše čitateljske užitke.
             </p>
-            <button class="btn Btnn text-light p-3"  style=" margin-bottom: 100px !important;"><router-link
+            <button class="btn Btnn text-light p-3"  style=" margin-bottom: 100px !important;">
+                <router-link to="/contact"
                                 class="nav-link text-dark"
-                                to="/contact"
+                                
                                 >Kontaktirajte nas!</router-link
                             ></button>
 
