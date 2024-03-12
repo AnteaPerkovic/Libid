@@ -86,7 +86,7 @@ import axios from 'axios';
                        this.poruka = response.data.message;
                         console.log(this.poruka)
                        if(this.poruka == "Uspjesna prijava"){
-                            this.$router.push("/home");
+                            this.$router.push("/books");
                        }else{
                             this.neuspjesnaPrijava = true;
                        }

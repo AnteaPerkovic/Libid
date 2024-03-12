@@ -16,31 +16,29 @@ import Bottom from "../components/Bottom.vue";
         <Navigacija />
         <div class="container">
             <div class="d-flex gap-3 flex-column align-items-center mt-5">
-                <h1 class="fs-1">Cloud Cataloging</h1>
-                <p class="fs-4">
-                    Vaša knjižnica nikada nije izgledala bolje. Knjige, filmovi,
-                    glazba i video igre.
+                <h1 class="fs-1">Dobrodošli u našu knjižnicu!</h1>
+                <p class="fs-4" style="text-align:center">
+                    Otvarajući vrata naše knjižnice otkrijte čaroliju čitanja knjiga koje vam nudimo.
+                    Pridružite nam se još danas i uživajte u raličitim pogodnostima.
                 </p>
-                <button class="btn Btn p-2 fs-6 col-12 col-lg-1 text-light">
-                    Kreni
-                </button>
+               
             </div>
         </div>
         <div class="d-flex gap-4 flex-column justify-content-center align-items-center mt-5" style="background-color: #EAF3F4; margin-top: 200px !important;">
-            <img class="libidImg" src="../images/pocetna.png" alt="" />
-            <h1 class="text-desc">Stvarajte i dijelite svoje kolekcije</h1>
+            <img class="libidImg" src="../images/mountains.png" alt="" />
+            <h1 class="text-desc">Dobrodošli u knjižnicu gdje riječi postaju avantura!</h1>
             <p class="col-lg-5 col-md-5  col-12 col-sm-8  text-desc">
-                Naša usluga upravljanja knjižnicom prilagođena je knjižnicama,
-                školama, organizacijama i kućnim katalozima. Naša internetska
-                softver omogućuje vam stvaranje više kolekcija, katalogizaciju
-                knjiga, filmova, glazbe i videoigara, stvaranje oznaka,
-                ostavljanje bilješki, uvoz/izvoz, dijeljenje vaših kolekcija i
-                još mnogo toga. Nudimo dvije različite opcije pretplate koje
-                najbolje odgovaraju vašim potrebama. Libib je najbolje mjesto za
-                katalogizaciju i upravljanje vašim medijima dostupno na mreži.
-                Sada, koja verzija je najbolja za vas?
+                Mi smo tu da vam
+      pomognemo otkriti čaroliju čitanja, istraživanja novih svjetova i
+      stvaranja nezaboravnih iskustava. Naša bogata kolekcija knjiga nudi
+      raznolikost žanrova i tema, a naša stručna ekipa stoji vam na raspolaganju
+      kako bi vam pomogla pronaći savršenu knjigu za vaše čitateljske užitke.
             </p>
-            <button class="btn Btnn text-light p-3"  style=" margin-bottom: 100px !important;">Usporedi planove</button>
+            <button class="btn Btnn text-light p-3"  style=" margin-bottom: 100px !important;"><router-link
+                                class="nav-link text-dark"
+                                to="/contact"
+                                >Kontaktirajte nas!</router-link
+                            ></button>
 
         </div>
 

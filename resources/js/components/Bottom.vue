@@ -3,7 +3,7 @@
         <div class="position-fixed shadow-lg  bottom-0 w-100" style="background-color: #03151E;" >
             <div class="d-flex justify-content-center text-light align-items-center gap-5 footer-items shadow-lg" >
                 <p class="text-center mt-3  ">
-                    Copyright © Klara Divković & Antea Perković | 2024
+                    Copyright © Klara & Antea | PZI
                 </p>
                 <div class="d-flex gap-3 footer-icons">
                     <Facebook class="icon"/>

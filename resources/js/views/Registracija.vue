@@ -102,7 +102,7 @@ import axios from "axios";
                         ><router-link
                             class="text-decoration-underline"
                             style="color: #0096b5"
-                            to="/"
+                            to="/home"
                             >Prijava</router-link
                         ></span
                     >
