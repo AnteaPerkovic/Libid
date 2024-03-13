@@ -25,7 +25,7 @@ import Bottom from "../components/Bottom.vue";
             </div>
         </div>
         <div class="d-flex gap-4 flex-column justify-content-center align-items-center mt-5" style="background-color: #EAF3F4; margin-top: 200px !important;">
-            <img class="libidImg" src="../images/mountains.png" alt="" />
+            <img class="libidImg img-fluid" src="../images/mountains.png" alt="" />
             <h1 class="text-desc">Dobrodošli u knjižnicu gdje riječi postaju avantura!</h1>
             <p class="col-lg-5 col-md-5  col-12 col-sm-8  text-desc">
                 Mi smo tu da vam
