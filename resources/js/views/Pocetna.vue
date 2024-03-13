@@ -43,7 +43,7 @@ import Bottom from "../components/Bottom.vue";
 
         </div>
 
-        <Bottom class="footer" />
+        <!---<Bottom class="footer" /> -->
     </div>
 
     <Bottom />
