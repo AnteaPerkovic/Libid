@@ -45,9 +45,13 @@ import Bottom from "../components/Bottom.vue";
 
         <Bottom class="footer" />
     </div>
+
+    <Bottom />
+
 </template>
 
 <script>
+
 import axios from "axios";
 export default {
     data() {
