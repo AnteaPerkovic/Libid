@@ -113,7 +113,7 @@ export default {
 }
 
 .libidImg{
-    position:relative;
+    position:relative; 
     bottom:17vh;
     overflow: hidden;
 }
